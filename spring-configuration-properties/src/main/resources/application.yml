@@ -1,0 +1,9 @@
+loda:
+  email: loda.namnh@gmail.com
+  googleAnalyticsId: U-xxxxx
+  authors:
+    - loda
+    - atom
+  exampleMap:
+    key1: hello
+    key2: world
