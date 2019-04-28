@@ -5,6 +5,9 @@
   <packaging>pom</packaging>
   <modules>
     <module>spring-configuration-properties</module>
+    <module>jpa-hibernate-one-to-one</module>
+    <module>jpa-hibernate-one-to-many</module>
+    <module>jpa-hibernate-many-to-many</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
