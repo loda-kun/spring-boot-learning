@@ -11,6 +11,7 @@
     <module>spring-security-example</module>
     <module>spring-thymeleaf-example</module>
     <module>spring-security-hibernate</module>
+    <module>spring-security-hibernate-jwt</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
