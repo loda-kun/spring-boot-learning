@@ -43,6 +43,8 @@ Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nướ
 
 Họ chia sẻ tài liệu với nhau rộng rãi, hướng dẫn lập trình, open-source hàng tá những project lớn nhỏ, và tất cả đều viết bằng tiếng Trung, comment tiếng trung, quy tắc, mô tả, giải thích, v.v.. mọi thứ đều là ngôn ngữ bản địa. Nó giúp cho bất kì ai trong đất nước họ đều có thể tiếp cận và học tập được những kiến thức này, dễ hiểu mà lại cực kì nhanh.
 
+Tôi không nói rằng Tiếng Anh là không đủ, nhưng nếu cầm trên tay 2 quyển sách tương đương về kiến thức, một tiếng việt, một tiếng anh. Bạn đọc quyển nào trước?
+
 Thế đấy, tôi sẽ bắt đầu dự án up những dự án tiếng việt lên `Github` để tất cả những developer là người Việt có thể tìm hiểu, đọc được và cùng nhau đóng góp. Xây dựng lên một cộng đồng developer Việt Nam lớn mạnh. Tôi không nhận mình giỏi, hoặc code tôi là đúng, là hợp lý hoàn toàn, nhưng nó **hoạt động** và tôi tin sẽ có người cần tới nó. Nội dung tôi chia sẻ thời gian đầu sẽ là những gì liên quan tới `Java Backend`, `Spring Boot` và những thứ xung quanh nó như `spring cloud, spring contract, aop, jpa, hibernate, es, docker, redis v.v..` Đây đều là những kiến thức **cực kì cần học**. Tôi sẽ làm thêm một cái notebook nữa để đánh dấu các phần cho dễ.
 
 Hi vọng việc này sẽ giúp đỡ cho các tân binh mới vào nghề dễ dàng tiếp cận kiến thức mới và có lộ trình rõ ràng.
