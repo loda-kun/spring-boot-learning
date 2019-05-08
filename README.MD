@@ -20,7 +20,7 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 
 ## Các bài viết hiện có
 
-- [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled)
+- [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
