@@ -13,6 +13,7 @@
     <module>spring-security-hibernate</module>
     <module>spring-security-hibernate-jwt</module>
     <module>spring-redis</module>
+    <module>basic-dependency-loosely-coupled</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
