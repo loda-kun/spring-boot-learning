@@ -40,7 +40,7 @@ Trong nhiều năm qua, chúng ta nhìn thấy sự lớn mạnh của "nước 
 
 Tôi gần như có thể tìm kiếm hàng tá **repository xịn xò** của họ khi dùng tính năng `Explore` của `Github`. Thì đúng, là Github mà, không tìm thấy code thì tìm thấy gì :))) nhưng cái điểm khác biệt đó là toàn bộ repo đều là **tiếng Trung**!
 
-Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nước láng giếng" lại có nguồn Developer đông và giỏi chuyên môn như vậy (tạm bỏ qua yếu tố đông dân, xã hội, điều kiện sống, v.v.. đúng là có ảnh hưởng nhưng các bạn đọc tiếp đã). 
+Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nước láng giếng" lại có nguồn Developer đông và giỏi chuyên môn như vậy (tạm bỏ qua yếu tố đông dân, xã hội, điều kiện sống, nền tảng giáo dục, v.v.. đúng là có ảnh hưởng nhưng các bạn đọc tiếp đã). 
 
 Họ chia sẻ tài liệu với nhau rộng rãi, hướng dẫn lập trình, open-source hàng tá những project lớn nhỏ, và tất cả đều viết bằng tiếng Trung, comment tiếng trung, quy tắc, mô tả, giải thích, v.v.. mọi thứ đều là ngôn ngữ bản địa. Nó giúp cho bất kì ai trong đất nước họ đều có thể tiếp cận và học tập được những kiến thức này, dễ hiểu mà lại cực kì nhanh.
 
