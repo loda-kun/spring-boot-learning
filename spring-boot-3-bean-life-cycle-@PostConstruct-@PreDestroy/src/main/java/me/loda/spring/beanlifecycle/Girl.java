@@ -1,4 +1,4 @@
-package me.loda.spring.helloprimaryqualifier;
+package me.loda.spring.beanlifecycle;
 /*******************************************************
  * For Vietnamese readers:
  *    Các bạn thân mến, mình rất vui nếu project này giúp 
@@ -7,6 +7,9 @@ package me.loda.spring.helloprimaryqualifier;
  * lại dường dẫn tới github hoặc tên tác giá.
  *    Xin cảm ơn!
  *******************************************************/
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -22,22 +25,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class Girl {
 
-    // Đánh dấu để Spring inject một đối tượng Outfit vào đây
-    Outfit outfit;
-
-    // Spring sẽ inject outfit thông qua Constructor đầu tiên
-    // Ngoài ra, nó sẽ tìm Bean có @Qualifier("naked") trong context để ịnject
-    public Girl(@Qualifier("naked") Outfit outfit) {
-        this.outfit = outfit;
+    @PostConstruct
+    public void postConstruct(){
+        System.out.println("\t>> Đối tượng Girl sau khi khởi tạo xong sẽ chạy hàm này");
     }
 
-
-    // GET
-    // SET
-
-    // Sử dụng trên method cũng được
-    // @Autowired
-    // public void setOutfit(Outfit outfit){
-    //     this.outfit = outfit;
-    // }
+    @PreDestroy
+    public void preDestroy(){
+        System.out.println("\t>> Đối tượng Girl trước khi bị destroy thì chạy hàm này");
+    }
 }

@@ -19,6 +19,7 @@
     <module>spring-cloud-config-server</module>
     <module>spring-cloud-config-client</module>
     <module>spring-boot-helloworld-@Primary - @Qualifier</module>
+    <module>spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
