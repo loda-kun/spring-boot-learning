@@ -15,6 +15,9 @@
     <module>spring-redis</module>
     <module>basic-dependency-loosely-coupled</module>
     <module>spring-boot-helloworld</module>
+    <module>spring-boot-webflux</module>
+    <module>spring-cloud-config-server</module>
+    <module>spring-cloud-config-client</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -34,16 +37,16 @@
 
   <dependencies>
     <!--spring jpa-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.springframework.boot</groupId>-->
+      <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+    <!--</dependency>-->
 
     <!--spring mvc, rest-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.springframework.boot</groupId>-->
+      <!--<artifactId>spring-boot-starter-web</artifactId>-->
+    <!--</dependency>-->
 
     <!--hot swapping, disable cache for template-->
     <dependency>
@@ -53,11 +56,11 @@
     </dependency>
 
     <!--in memory database-->
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <scope>runtime</scope>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>com.h2database</groupId>-->
+      <!--<artifactId>h2</artifactId>-->
+      <!--<scope>runtime</scope>-->
+    <!--</dependency>-->
 
     <!--lombok annotation for fast coding-->
     <dependency>
