@@ -15,6 +15,9 @@
     <module>spring-redis</module>
     <module>basic-dependency-loosely-coupled</module>
     <module>spring-boot-helloworld-@Component-@Autowired</module>
+    <module>spring-boot-webflux</module>
+    <module>spring-cloud-config-server</module>
+    <module>spring-cloud-config-client</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
