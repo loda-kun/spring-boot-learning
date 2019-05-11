@@ -21,7 +21,9 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 ## Các bài viết hiện có
 
 - [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
-- [spring-boot-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-helloworld-@Component-@Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
+- [spring-boot-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-helloworld-%40Component-%40Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
+- [spring-boot-helloworld-@Primary - @Qualifier](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-helloworld-%40Primary%20-%20%40Qualifier): 「Spring Boot #2」@Autowired - @Primary - @Qualifier
+- [spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-3-bean-life-cycle-%40PostConstruct-%40PreDestroy): 「Spring Boot #3」Spring Bean Life Cycle + @PostConstruct và @PreDestroy
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
