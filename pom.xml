@@ -20,7 +20,9 @@
     <module>spring-cloud-config-client</module>
     <module>spring-boot-helloworld-@Primary - @Qualifier</module>
     <module>spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy</module>
-    <module>spring-boot-4-Component-Scan-@Controller</module>
+    <module>spring-boot-4-@Component-@Service-@Repository</module>
+    <module>spring-boot-5-Component-Scan-@Controller</module>
+
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
