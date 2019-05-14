@@ -11,6 +11,7 @@ package me.loda.spring.componentscan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import me.loda.spring.componentscan.others.OtherGirl;
 
@@ -21,7 +22,9 @@ import me.loda.spring.componentscan.others.OtherGirl;
  * @since 5/12/2019
  * Github: https://github.com/loda-kun
  */
-@SpringBootApplication(scanBasePackages = "me.loda.spring.componentscan.others")
+@ComponentScan({"me.loda.spring.componentscan.others2","me.loda.spring.componentscan.others"})
+@SpringBootApplication(scanBasePackages = {"me.loda.spring.componentscan.others", "me.loda.spring.componentscan.others2"})
+//@SpringBootApplication
 public class App {
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(App.class, args);
