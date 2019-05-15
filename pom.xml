@@ -21,7 +21,8 @@
     <module>spring-boot-helloworld-@Primary - @Qualifier</module>
     <module>spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy</module>
     <module>spring-boot-4-@Component-@Service-@Repository</module>
-    <module>spring-boot-5-Component-Scan-@Controller</module>
+    <module>spring-boot-5-Component-Scan</module>
+    <module>spring-boot-6-@configuration-@Bean</module>
 
   </modules>
   <parent>
