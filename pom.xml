@@ -14,15 +14,16 @@
     <module>spring-security-hibernate-jwt</module>
     <module>spring-redis</module>
     <module>basic-dependency-loosely-coupled</module>
-    <module>spring-boot-helloworld-@Component-@Autowired</module>
+    <module>spring-boot-1-helloworld-@Component-@Autowired</module>
     <module>spring-boot-webflux</module>
     <module>spring-cloud-config-server</module>
     <module>spring-cloud-config-client</module>
-    <module>spring-boot-helloworld-@Primary - @Qualifier</module>
+    <module>spring-boot-2-helloworld-@Primary - @Qualifier</module>
     <module>spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy</module>
     <module>spring-boot-4-@Component-@Service-@Repository</module>
     <module>spring-boot-5-Component-Scan</module>
     <module>spring-boot-6-@configuration-@Bean</module>
+    <module>spring-boot-7-spring-application-properties-@Value</module>
 
   </modules>
   <parent>

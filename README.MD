@@ -21,8 +21,8 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 ## Các bài viết hiện có
 
 - [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
-- [spring-boot-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-helloworld-%40Component-%40Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
-- [spring-boot-helloworld-@Primary - @Qualifier](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-helloworld-%40Primary%20-%20%40Qualifier): 「Spring Boot #2」@Autowired - @Primary - @Qualifier
+- [spring-boot-1-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-1-helloworld-%40Component-%40Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
+- [spring-boot-2-helloworld-@Primary - @Qualifier](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-2-helloworld-%40Primary%20-%20%40Qualifier): 「Spring Boot #2」@Autowired - @Primary - @Qualifier
 - [spring-boot-3-bean-life-cycle-@PostConstruct-@PreDestroy](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-3-bean-life-cycle-%40PostConstruct-%40PreDestroy): 「Spring Boot #3」Spring Bean Life Cycle + @PostConstruct và @PreDestroy
 - [spring-boot-4-@Component-@Service-@Repository](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-4-%40Component-%40Service-%40Repository): 「Spring Boot #4」@Component vs @Service vs @Repository
 - [spring-boot-5-Component-Scan](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-5-Component-Scan): 「Spring Boot #5」Component Scan là gì?
@@ -55,6 +55,10 @@ Tôi không nói rằng Tiếng Anh là không đủ, nhưng nếu cầm trên t
 Thế đấy, tôi sẽ bắt đầu chỉa sẽ những repo tiếng việt lên `Github` để tất cả những developer là người Việt có thể tìm hiểu, đọc được và cùng nhau đóng góp. Xây dựng lên một cộng đồng developer Việt Nam ngày càng tốt hơn. 
 
 Hi vọng việc này sẽ giúp đỡ cho các tân binh mới vào nghề dễ dàng tiếp cận kiến thức mới và có lộ trình rõ ràng.
+
+### Giúp đỡ tôi
+
+![](docs/images/stars.gif)
 
 ### Thông tin liên hệ 
 
