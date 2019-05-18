@@ -56,7 +56,7 @@ Thế đấy, tôi sẽ bắt đầu chỉa sẽ những repo tiếng việt lê
 
 Hi vọng việc này sẽ giúp đỡ cho các tân binh mới vào nghề dễ dàng tiếp cận kiến thức mới và có lộ trình rõ ràng.
 
-### Giúp đỡ tôi bằng cách chia sẻ
+### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao
 
 ![](docs/images/stars.gif)
 
