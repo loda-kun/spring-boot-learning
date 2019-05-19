@@ -7,8 +7,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class ExampleApplication {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ExampleApplication.class);
-        System.out.println("ApplicationContext stared!");
+        System.out.println("ApplicationContext started!");
         FirstBean firstBean = context.getBean(FirstBean.class);
+        SecondBean secondBean = context.getBean(SecondBean.class);
         context.close();
     }
 }
