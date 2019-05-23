@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loda</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <!--css-->
+  <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+
+  <!--js-->
+  <script th:src="@{/js/bootstrap.js}"></script>
+
+</head>
+<body>
+<h1 th:utext="#{loda.hello}"></h1>
+<h2>Loda Profile</h2>
+
+<ul>
+  <li th:each="info : ${lodaProfile}">
+    <span th:text="*{info.key}"></span> : <span th:text="*{info.value}"></span>
+  </li>
+</ul>
+
+</body>
+
+</html>
