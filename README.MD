@@ -27,7 +27,6 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 - [spring-boot-4-@Component-@Service-@Repository](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-4-%40Component-%40Service-%40Repository): 「Spring Boot #4」@Component vs @Service vs @Repository
 - [spring-boot-5-Component-Scan](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-5-Component-Scan): 「Spring Boot #5」Component Scan là gì?
 - [spring-boot-6-@configuration-@Bean](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-6-%40configuration-%40Bean): 「Spring Boot #6」@Configuration và @Bean
-- [spring-boot-9-annotation-lazy-trong-spring-boot](https://loda.me/spring-boot-9-annotation-lazy-trong-spring-boot-loda1558283720495)
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany

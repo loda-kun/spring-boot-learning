@@ -1,9 +1,10 @@
 # Source
 Vào link để xem chi tiết có hình ảnh minh họa:
 
-[Loda.me - 「Spring Boot #9」Annotation @Lazy trong Spring Boot](https://loda.me/spring-boot-9-annotation-lazy-trong-spring-boot-loda1558283720495)
+[Loda.me - 「Spring Boot」Annotation @Lazy trong Spring Boot](https://loda.me/spring-boot-annotation-lazy-trong-spring-boot-loda1558283720495)
 
 # Content without images
+
 ### Tổng quan
 Như mặc định, Spring sẽ tạo tất cả các `singleton Bean` trong quá trình startup `Application Context`. Tuy nhiên, có những trường hợp chúng ta chưa dùng đến `Bean` khi mới startup `Application Context`, mà khi nào yêu cầu thì nó sẽ được tạo ra. Để làm được điều đó, Spring cho ra đời annotation `@Lazy.
 
@@ -132,7 +133,7 @@ public class ServiceBean {
 ```
 Khi đó `Bean` FirstBean sẽ được khởi tạo khi chúng tôi gọi hàm `getFirstBean()`.
 ### Kết luận
-Với những ví dụ đơn giản trên, các bạn cũng đã hiểu cơ bản về annotation này. Code cho bài hướng dẫn này có sẵn [trên Github] [link-github].
+Với những ví dụ đơn giản trên, các bạn cũng đã hiểu cơ bản về annotation này. [Code cho bài hướng dẫn này có sẵn trên Github][link-github].
 
 ### Tham Khảo
 
