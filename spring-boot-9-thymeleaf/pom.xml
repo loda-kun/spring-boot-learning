@@ -9,13 +9,23 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-boot-9-thymeleaf-and-@Postmaping</artifactId>
+  <artifactId>spring-boot-9-thymleaf</artifactId>
+
 
   <dependencies>
-    <!-- thymeleaf -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!--hot swapping, disable cache for template-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 </project>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loda</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <!--css-->
+  <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+
+  <!--js-->
+  <script th:src="@{/js/bootstrap.js}"></script>
+
+</head>
+<body>
+<h1 th:utext="#{loda.hello}"></h1>
+<a th:href="@{/profile}" class="btn btn-primary">Loda Profile</a>
+<!--<a th:href="@{/personList}">Person List</a>-->
+
+</body>
+
+</html>

@@ -24,9 +24,10 @@
     <module>spring-boot-5-Component-Scan</module>
     <module>spring-boot-6-@configuration-@Bean</module>
     <module>spring-boot-7-spring-application-properties-@Value</module>
+    <module>spring-boot-swagger</module>
     <module>spring-boot-8-@Controller-web-helloworld</module>
-    <module>spring-boot-9-thymeleaf-and-@Postmaping</module>
-
+    <module>spring-boot-@Lazy-Anotation</module>
+    <module>spring-boot-9-thymeleaf</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
