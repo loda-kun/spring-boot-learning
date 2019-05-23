@@ -19,7 +19,7 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 ---
 
 ## Các bài viết hiện có
-
+- []():
 - [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
 - [spring-boot-1-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-1-helloworld-%40Component-%40Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
 - [spring-boot-2-helloworld-@Primary - @Qualifier](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-2-helloworld-%40Primary%20-%20%40Qualifier): 「Spring Boot #2」@Autowired - @Primary - @Qualifier
@@ -27,6 +27,12 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 - [spring-boot-4-@Component-@Service-@Repository](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-4-%40Component-%40Service-%40Repository): 「Spring Boot #4」@Component vs @Service vs @Repository
 - [spring-boot-5-Component-Scan](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-5-Component-Scan): 「Spring Boot #5」Component Scan là gì?
 - [spring-boot-6-@configuration-@Bean](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-6-%40configuration-%40Bean): 「Spring Boot #6」@Configuration và @Bean
+- [spring-boot-7-spring-application-properties-@Value](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-7-spring-application-properties-%40Value): 「Spring Boot #7」Spring Boot Application Config và @Value
+- [spring-boot-8-@Controller-web-helloworld](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-8-%40Controller-web-helloworld): 「Spring Boot #8」Tạo Web Helloworld với @Controller
+- [spring-boot-9-thymeleaf](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-9-thymeleaf): 「Spring Boot #9」Hướng dẫn chi tiết làm Web với Thymeleaf + Demo Full
+- [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): 「Spring Boot」Annotation @Lazy trong Spring Boot
+- [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
+- [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
