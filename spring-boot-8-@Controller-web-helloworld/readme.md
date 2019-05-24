@@ -1,7 +1,7 @@
 # Source
 Vào link để xem chi tiết có hình ảnh minh họa: 
 
-[Loda.me - 「Spring Boot #8」Tạo Web Helloworld với @Controller](https://loda.me/spring-boot-8-tao-web-helloworld-voi-controller-loda1558189401113)
+[Loda.me - 「Spring Boot #8」Tạo Web Helloworld với @Controller + Thymeleaf](https://loda.me/spring-boot-8-tao-web-helloworld-voi-controller-loda1558189401113)
 
 # Content without images
 ### Giới thiệu
