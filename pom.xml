@@ -28,6 +28,8 @@
     <module>spring-boot-8-@Controller-web-helloworld</module>
     <module>spring-boot-@Lazy-Anotation</module>
     <module>spring-boot-9-thymeleaf</module>
+    <module>spring-boot-10-@PostMapping-@RequestBody</module>
+    <module>spring-boot-10-@PostMapping-@ModelAttribute-thymeleaf</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
