@@ -34,6 +34,7 @@
     <module>spring-boot-12-custom-jpa-@Query</module>
     <module>spring-boot-12-jpa-method-and-@Query-@Param</module>
     <module>spring-boot-13-spring-boot-thymeleaf-mysql-web</module>
+    <module>spring-boot-14-restful-api-@RestController-@RequestBody-@PathVariable</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
