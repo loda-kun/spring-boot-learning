@@ -19,7 +19,7 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 ---
 
 ## Các bài viết hiện có
-- []():
+[]()
 - [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
 - [spring-boot-1-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-1-helloworld-%40Component-%40Autowired): 「Spring Boot #1」Hướng dẫn @Component và @Autowired
 - [spring-boot-2-helloworld-@Primary - @Qualifier](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-2-helloworld-%40Primary%20-%20%40Qualifier): 「Spring Boot #2」@Autowired - @Primary - @Qualifier

@@ -31,6 +31,8 @@
     <module>spring-boot-10-@PostMapping-@RequestBody</module>
     <module>spring-boot-10-@PostMapping-@ModelAttribute-thymeleaf</module>
     <module>spring-boot-11-JPA-MySQL</module>
+    <module>spring-boot-12-custom-jpa-@Query</module>
+    <module>spring-boot-12-jpa-method-and-@Query-@Param</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
