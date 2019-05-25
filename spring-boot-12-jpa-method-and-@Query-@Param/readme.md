@@ -1,7 +1,7 @@
 # Source
 Vào link để xem chi tiết có hình ảnh minh họa:
 
-[Loda.me - 「Spring Boot #11」Hướng dẫn Spring Boot JPA + MySQL](https://loda.me/spring-boot-11-huong-dan-spring-boot-jpa-my-sql-loda1558687596060)
+[Loda.me - 「Spring Boot #12」Spring JPA Method + @Query](https://loda.me/spring-boot-12-spring-jpa-method-query-loda1558746200832)
 
 # Content without images
 ### Giới thiệu

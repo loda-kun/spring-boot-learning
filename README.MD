@@ -30,8 +30,9 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 - [spring-boot-7-spring-application-properties-@Value](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-7-spring-application-properties-%40Value): 「Spring Boot #7」Spring Boot Application Config và @Value
 - [spring-boot-8-@Controller-web-helloworld](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-8-%40Controller-web-helloworld): 「Spring Boot #8」Tạo Web Helloworld với @Controller
 - [spring-boot-9-thymeleaf](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-9-thymeleaf): 「Spring Boot #9」Hướng dẫn chi tiết làm Web với Thymeleaf + Demo Full
-- []():
-- []():
+- [spring-boot-10-@PostMapping-@ModelAttribute-thymeleaf](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-10-%40PostMapping-%40ModelAttribute-thymeleaf): 「Spring Boot #10」@RequestMapping + @PostMapping + @ModelAttribute + @RequestParam + Web To-Do với Thymeleaf
+- [spring-boot-11-JPA-MySQL](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-11-JPA-MySQL): 「Spring Boot #11」Hướng dẫn Spring Boot JPA + MySQL
+- [spring-boot-12-jpa-method-and-@Query-@Param](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-12-jpa-method-and-%40Query-%40Param): 「Spring Boot #12」Spring JPA Method + @Query
 - [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): 「Spring Boot」Annotation @Lazy trong Spring Boot
 - [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
 - [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
@@ -50,9 +51,9 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 
 Xin chào toàn thể các bạn dev thân mến!
 
-Trong nhiều năm qua, chúng ta nhìn thấy sự lớn mạnh của "nước láng giềng" (Không tiện đề cập) trong lĩnh vực lập trình.
+Trong nhiều năm qua, chúng ta nhìn thấy sự lớn mạnh chóng mặt của "nước láng giềng" trong lĩnh vực lập trình.
 
-Tôi gần như có thể tìm kiếm hàng tá **repository xịn xò** của họ khi dùng tính năng `Explore` của `Github`. Thì đúng, là Github mà, không tìm thấy code thì tìm thấy gì :))) nhưng cái điểm khác biệt đó là toàn bộ repo đều là **tiếng Trung**!
+Tôi gần như có thể tìm kiếm hàng tá **repository xịn xò** của họ khi `Explore` trên `Github`. Thì đúng, là Github mà, không tìm thấy repo thì tìm thấy gì :))) nhưng cái điểm khác biệt đó là toàn bộ repo đều là **tiếng Trung**!
 
 Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nước láng giếng" lại có nguồn Developer đông và giỏi chuyên môn như vậy (tạm bỏ qua yếu tố đông dân, xã hội, điều kiện sống, nền tảng giáo dục, v.v.. đúng là có ảnh hưởng nhưng các bạn đọc tiếp đã). 
 
