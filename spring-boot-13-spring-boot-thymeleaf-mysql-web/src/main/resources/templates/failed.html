@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loda To-do</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+  <link th:href="@{/css/main.css}" rel="stylesheet" />
+
+</head>
+<body>
+<h1>To-do</h1>
+<h1 style="color: red" th:text="#{loda.message.failed}"></h1>
+
+<a th:href="@{/listTodo}" th:text="#{loda.value.viewListTodo}" class="btn btn-primary"></a>
+
+</body>
+
+</html>
