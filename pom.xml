@@ -9,7 +9,6 @@
     <module>jpa-hibernate-one-to-many</module>
     <module>jpa-hibernate-many-to-many</module>
     <module>spring-security-example</module>
-    <module>spring-thymeleaf-example</module>
     <module>spring-security-hibernate</module>
     <module>spring-security-hibernate-jwt</module>
     <module>spring-redis</module>
@@ -35,6 +34,7 @@
     <module>spring-boot-12-jpa-method-and-@Query-@Param</module>
     <module>spring-boot-13-spring-boot-thymeleaf-mysql-web</module>
     <module>spring-boot-14-restful-api-@RestController-@RequestBody-@PathVariable</module>
+    <module>spring-boot-15-@ControllerAdvice-@RestControllerAdvice-@ExceptionHandler-@ResponseStatus</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
