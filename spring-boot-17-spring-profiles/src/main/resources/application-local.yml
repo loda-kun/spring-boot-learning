@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/news?useSSL=false&characterEncoding=UTF-8
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug

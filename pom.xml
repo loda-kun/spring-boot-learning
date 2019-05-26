@@ -35,6 +35,8 @@
     <module>spring-boot-13-spring-boot-thymeleaf-mysql-web</module>
     <module>spring-boot-14-restful-api-@RestController-@RequestBody-@PathVariable</module>
     <module>spring-boot-15-@ControllerAdvice-@RestControllerAdvice-@ExceptionHandler-@ResponseStatus</module>
+    <module>spring-boot-16-@ConfigurationProperties</module>
+    <module>spring-boot-17-spring-profiles</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
