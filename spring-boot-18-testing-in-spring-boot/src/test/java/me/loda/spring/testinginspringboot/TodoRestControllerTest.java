@@ -45,10 +45,10 @@ public class TodoRestControllerTest {
      * Có tác dụng giả lập request, thay thế việc khởi động Server
      */
     @Autowired
-    private MockMvc mvc;
+    MockMvc mvc;
 
     @MockBean
-    private TodoService todoService;
+    TodoService todoService;
 
     @Test
     public void testFindAll() throws Exception {
