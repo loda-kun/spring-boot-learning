@@ -17,6 +17,34 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 [English](https://github.com/loda-kun/spring-boot-learning)
 
 ---
+### Vì sao nên học Java?
+
+Nguồn: [Xem bài viết  đầy đủ tại đây](https://loda.me/tai-sao-nen-hoc-java-va-spring-loda1559051651429)
+
+Trước khi nói **Spring Boot**, chúng ta nói về nền tảng của nó, chính là **Java**.
+
+**Java** ra đời năm 1991, tới nay thì đã gần 30 năm rồi. Và có một điều mà có lẽ ít lập trình viên biết, đó là tính tới năm 2018, nó vẫn là **ngôn ngữ phổ biến nhất thế giới**.
+Còn cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng, dễ hiểu và dễ đọc. Ngoài ra, khái niệm OOP trong Java là chuẩn mực, kế thừa và interface đã khiến các dòng code trở nên "yêu" hơn và dễ dàng mở rộng hơn.
+
+Khi được chạm tay vào những đoạn code siêu sao, cảm giác cực kì, cực kì phê. Mặc dù quy tắc của **Java** rất đơn giản và không nhiều biến thể được hỗ trợ bởi thông dịch như `Javascript` hay `Python`, nhưng bạn vẫn không thể nào hết ngạc nhiên với **Java** được, bạn sẽ còn trầm trồ dù học nó bao lâu đi nữa.
+
+Với một cộng đồng cực kì đông đảo và ngôn ngữ luôn cải thiện trong các version JDK về sau, mình tỉn rằng Java vẫn luôn là một khởi điểm tốt cho mọi lập trình viên.
+
+### Vì sao bạn nên học Spring?
+
+**Spring** là một Framework, nên dù bạn có học nó, hay không học nó, bạn vẫn biết code **Java** thôi 😆
+
+Nhưng nếu không học **Spring** hay **Spring Boot** thì bạn đã bỏ lỡ đi những điều thú vị mà Java có thể làm được. Chưa kể tới bỏ lỡ hàng tỉ cơ hội về nghề nghiệp, lương tỉ đô 😂 mặc dù mình biết nghề nghiệp cũng là phụ thôi, phải không các bạn, chúng ta làm vì đam mê! 😗
+
+**Spring** là một framework java mãnh mẽ và phổ biến nhất hiện nay dành cho doanh nghiệp. Nó giúp rút ngắn thời gian lập trình và test, giảm sự rườm rà trong code, giảm thiểu bottleneck.
+
+Hệ sinh thái **Spring** hỗ trợ mọi layer từ frontend, backend, persistence, third-paty, hỗ trợ mọi kiến trúc từ củ chuối tới microservice, code thì lại dễ dàng, nâng cao hiệu năng của lập trình viên. Nó là ánh sáng le lói chọc xuyên đêm đen, giúp cuộc đời của một Java Developer có chút hi vọng lay lắt, và tiếp túc sống (nghe cứ sai sai vấn đề 😂)
+
+Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa biết thực ra nó là gì, nên có kể nữa cũng không tác dụng. Bây giờ bạn chỉ cần biết **Spring** và thằng con của nó (vâng, đặc biệt là thằng con của nó), **Spring Boot** là thứ bạn **PHẢI HỌC** khi tới với **Java**.
+
+Để trả lời cho câu hỏi "học như nào?" thì bạn xem ở dưới.
+
+---
 
 ## Các bài viết hiện có
 []()
@@ -38,6 +66,7 @@ Mỗi module đều có hướng dẫn chi tiết đi kèm.
 - [spring-boot-15-@ControllerAdvice-@RestControllerAdvice-@ExceptionHandler-@ResponseStatus](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-15-%40ControllerAdvice-%40RestControllerAdvice-%40ExceptionHandler-%40ResponseStatus): 「Spring Boot #15」 Exception Handling @ExceptionHandler + @RestControllerAdvice / @ControllerAdvice + @ResponseStatus 
 - [spring-boot-16-@ConfigurationProperties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-16-%40ConfigurationProperties): 「Spring Boot #16」 Hướng dẫn sử dụng @ConfigurationProperties
 - [spring-boot-17-spring-profiles](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-17-spring-profiles): 「Spring Boot #17」 Chạy nhiều môi trường với Spring Profile
+- [spring-boot-18-testing-in-spring-boot](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-18-testing-in-spring-boot): 「Spring Boot #18」 Hướng dẫn chi tiết Test Spring Boot
 - [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): 「Spring Boot」Annotation @Lazy trong Spring Boot
 - [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
 - [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
