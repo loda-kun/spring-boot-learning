@@ -45,6 +45,13 @@ Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa b
 Để trả lời cho câu hỏi **"học như lào?"** thì bạn xem ở dưới.
 
 ---
+## Nên
+
+Bạn nên `fork` hoặc `star` repository này để nó lưu vào tài khoản Github của bạn. Lúc cần có thể đem ra học hoặc xem lại bất cứ lúc nào công việc yêu cầu.
+
+## Không nên
+
+Lướt dạo rồi té :'( 
 
 ## Các bài viết hiện có
 []()
