@@ -24,7 +24,8 @@ Nguồn: [Xem bài viết  đầy đủ tại đây](https://loda.me/tai-sao-nen
 Trước khi nói **Spring Boot**, chúng ta nói về nền tảng của nó, chính là **Java**.
 
 **Java** ra đời năm 1991, tới nay thì đã gần 30 năm rồi. Và có một điều mà có lẽ ít lập trình viên biết, đó là tính tới năm 2018, nó vẫn là **ngôn ngữ phổ biến nhất thế giới**.
-Còn cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng, dễ hiểu và dễ đọc. Ngoài ra, khái niệm OOP trong Java là chuẩn mực, kế thừa và interface đã khiến các dòng code trở nên "yêu" hơn và dễ dàng mở rộng hơn.
+
+Cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng, dễ hiểu và dễ đọc. Ngoài ra, khái niệm OOP trong Java là chuẩn mực, kế thừa và interface đã khiến các dòng code trở nên "yêu" hơn và dễ dàng mở rộng hơn.
 
 Khi được chạm tay vào những đoạn code siêu sao, cảm giác cực kì, cực kì phê. Mặc dù quy tắc của **Java** rất đơn giản và không nhiều biến thể được hỗ trợ bởi thông dịch như `Javascript` hay `Python`, nhưng bạn vẫn không thể nào hết ngạc nhiên với **Java** được, bạn sẽ còn trầm trồ dù học nó bao lâu đi nữa.
 
