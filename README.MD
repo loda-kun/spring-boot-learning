@@ -42,7 +42,7 @@ Hệ sinh thái **Spring** hỗ trợ mọi layer từ frontend, backend, persis
 
 Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa biết thực ra nó là gì, nên có kể nữa cũng không tác dụng. Bây giờ bạn chỉ cần biết **Spring** và thằng con của nó (vâng, đặc biệt là thằng con của nó), **Spring Boot** là thứ bạn **PHẢI HỌC** khi tới với **Java**.
 
-Để trả lời cho câu hỏi "học như nào?" thì bạn xem ở dưới.
+Để trả lời cho câu hỏi **"học như lào?"** thì bạn xem ở dưới.
 
 ---
 
@@ -82,8 +82,6 @@ Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa b
 ---
 
 ## Lí do
-
-Xin chào toàn thể các bạn dev thân mến!
 
 Trong nhiều năm qua, chúng ta nhìn thấy sự lớn mạnh chóng mặt của "nước láng giềng" trong lĩnh vực lập trình.
 
