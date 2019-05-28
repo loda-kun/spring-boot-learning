@@ -37,7 +37,7 @@ Với một cộng đồng cực kì đông đảo và ngôn ngữ luôn cải t
 
 Nhưng nếu không học **Spring** hay **Spring Boot** thì bạn đã bỏ lỡ đi những điều thú vị mà Java có thể làm được. Chưa kể tới bỏ lỡ hàng tỉ cơ hội về nghề nghiệp, lương tỉ đô 😂 mặc dù mình biết nghề nghiệp cũng là phụ thôi, phải không các bạn, chúng ta làm vì đam mê! 😗
 
-**Spring** là một framework java mãnh mẽ và phổ biến nhất hiện nay dành cho doanh nghiệp. Nó giúp rút ngắn thời gian lập trình và test, giảm sự rườm rà trong code, giảm thiểu bottleneck.
+**Spring** là một framework java mãnh mẽ và phổ biến nhất hiện nay dành cho doanh nghiệp. Hoạt động trên nguyên lý Dependency Injection (DI) và IoC, nó giúp rút ngắn thời gian lập trình và test, giảm sự rườm rà trong code, giảm thiểu bottleneck.
 
 Hệ sinh thái **Spring** hỗ trợ mọi layer từ frontend, backend, persistence, third-paty, hỗ trợ mọi kiến trúc từ củ chuối tới microservice, code thì lại dễ dàng, nâng cao hiệu năng của lập trình viên. Nó là ánh sáng le lói chọc xuyên đêm đen, giúp cuộc đời của một Java Developer có chút hi vọng lay lắt, và tiếp túc sống (nghe cứ sai sai vấn đề 😂)
 
@@ -49,6 +49,9 @@ Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa b
 ## Nên
 
 Bạn nên `fork` hoặc `star` repository này để nó lưu vào tài khoản Github của bạn. Lúc cần có thể đem ra học hoặc xem lại bất cứ lúc nào công việc yêu cầu.
+
+Nên đọc bài viết dưới đây để biết bắt đầu từ đâu: 
+- [Series làm chủ Spring Boot, từ zero to hero](https://loda.me/spring-boot-0-series-lam-chu-spring-boot-tu-zero-to-hero-loda1558963914472)
 
 ## Không nên
 
