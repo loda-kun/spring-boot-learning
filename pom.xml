@@ -39,6 +39,7 @@
     <module>spring-boot-17-spring-profiles</module>
     <module>spring-boot-18-testing-in-spring-boot</module>
     <module>hibernate-and-hibernate-only</module>
+    <module>spring-boot-@Conditional</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>
