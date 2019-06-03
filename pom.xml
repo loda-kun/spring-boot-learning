@@ -40,6 +40,7 @@
     <module>spring-boot-18-testing-in-spring-boot</module>
     <module>hibernate-and-hibernate-only</module>
     <module>spring-boot-@Conditional</module>
+    <module>spring-boot-@EventListener-@Async</module>
     <module>spring-boot-custom-@Conditional</module>
   </modules>
   <parent>
