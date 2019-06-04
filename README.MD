@@ -87,12 +87,14 @@ Lướt dạo rồi té :'(
 - [spring-boot-@Conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional): Hướng dẫn tạo Bean có điều kiện với @Conditional
 - [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): Annotation @Lazy trong Spring Boot
 - [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
+- [spring-configuration-properties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-configuration-properties): Hướng dẫn sử dụng Spring Properties
+- [spring-redis](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-redis): Hướng dẫn Spring Boot Data + Redis cơ bản
+- [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
+
 - [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
-- [spring-configuration-properties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-configuration-properties): Hướng dẫn sử dụng Spring Properties
-- [spring-redis](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-redis): Hướng dẫn Spring Boot Data + Redis cơ bản
 - [spring-security-example](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-example): Hướng dẫn Authorization với Spring Security (căn bản)
 - [spring-security-hibernate](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate): Hướng dẫn Spring Boot + Security + H2 Database
 - [spring-security-hibernate-jwt](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate-jwt): Hướng dẫn String Security + JWT (Json Web Token)

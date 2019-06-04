@@ -26,9 +26,12 @@ public class AppConfiguration {
 
     /*
     SomeBean chỉ được tạo ra khi
-    thỏa mãn điều kiện của WindowRequired
+    thỏa mãn điều kiện
      */
-    @Conditional(WindowRequired.class)
+//    @Conditional(MacRequired.class)
+//    @Conditional(WindowRequired.class)
+//    @Conditional(WindowOrMacRequired.class)
+    @ConditionalOnWindow
     @Bean
     SomeBean someBean(){
         return new SomeBean();
