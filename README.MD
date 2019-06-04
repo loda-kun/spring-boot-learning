@@ -29,7 +29,9 @@ Cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng,
 
 Khi được chạm tay vào những đoạn code siêu sao, cảm giác cực kì, cực kì phê. Mặc dù quy tắc của **Java** rất đơn giản và không nhiều biến thể được hỗ trợ bởi thông dịch như `Javascript` hay `Python`, nhưng bạn vẫn không thể nào hết ngạc nhiên với **Java** được, bạn sẽ còn trầm trồ dù học nó bao lâu đi nữa.
 
-Với một cộng đồng cực kì đông đảo và ngôn ngữ luôn cải thiện trong các version JDK về sau, mình tỉn rằng Java vẫn luôn là một khởi điểm tốt cho mọi lập trình viên.
+**Java** được sử dụng trong nhiều lĩnh vực khác nhau, có thể là Frontend, có thể là Backend, có thể viết Game, Desktop App, Mobile App, xử lý dữ liệu lớn, Microservices, ML, AI, v.v.. nó len lỏi từng ngóc nghách của lập trình. Vì vậy, có kiến thức nền tảng là Java thì bạn rất rất có lợi, làm được rất nhiều thứ, mà dù cho có không sử dụng đến, nó vẫn sẽ giúp bạn học được các ngôn ngữ khác nhanh hơn.
+
+Với một cộng đồng cực kì đông đảo và ngôn ngữ luôn cải thiện trong các version JDK về sau, mình tỉn rằng **Java** vẫn luôn là một khởi điểm tốt cho mọi lập trình viên.
 
 ### Vì sao bạn nên học Spring?
 
@@ -85,6 +87,7 @@ Lướt dạo rồi té :'(
 - [spring-boot-17-spring-profiles](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-17-spring-profiles): 「SP-#17」 Chạy nhiều môi trường với Spring Profile
 - [spring-boot-18-testing-in-spring-boot](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-18-testing-in-spring-boot): 「SP-#18」 Hướng dẫn chi tiết Test Spring Boot
 - [spring-boot-@Conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional): Hướng dẫn tạo Bean có điều kiện với @Conditional
+- [spring-boot-@Conditional-2-custom-conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional-2-custom-conditional): Hướng dẫn tự tạo custom @Conditional
 - [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): Annotation @Lazy trong Spring Boot
 - [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
 - [spring-configuration-properties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-configuration-properties): Hướng dẫn sử dụng Spring Properties
