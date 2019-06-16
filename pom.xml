@@ -43,6 +43,8 @@
     <module>spring-boot-@EventListener-@Async</module>
     <module>spring-boot-custom-@Conditional</module>
     <module>spring-boot-@Conditional-2-custom-conditional</module>
+    <module>spring-boot-application-context-events</module>
+    <module>spring-boot-jpa-auditing</module>
     <module>jpa-hibernate-pageable</module>
   </modules>
   <parent>
