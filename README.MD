@@ -11,6 +11,8 @@ Spring Boot và tất tần tật tất cả mọi thứ liên quan tới nó, b
 
 Mỗi module đều có hướng dẫn chi tiết đi kèm.
 
+:eggplant: [loda.me](https://loda.me) :banana:
+
 [Spring Boot](https://github.com/loda-kun/spring-boot-learning) &nbsp;| &nbsp; [Java](https://github.com/loda-kun/java-all) &nbsp;| &nbsp; [Github](https://github.com/loda-kun/spring-boot-learning)
 
 
@@ -102,7 +104,7 @@ Lướt dạo rồi té :'(
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
-- [jpa-hibernate-pageable](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-pageable): Hướng dẫn Query phân trang bằng Pageable (Phần 1)]
+- [jpa-hibernate-pageable](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-pageable): Hướng dẫn Query phân trang bằng Pageable (Phần 1)
 
 - [spring-security-example](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-example): Hướng dẫn Authorization với Spring Security (căn bản)
 - [spring-security-hibernate](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate): Hướng dẫn Spring Boot + Security + H2 Database
