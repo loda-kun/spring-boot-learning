@@ -11,6 +11,8 @@ Spring Boot và tất tần tật tất cả mọi thứ liên quan tới nó, b
 
 Mỗi module đều có hướng dẫn chi tiết đi kèm.
 
+:eggplant: [loda.me](https://loda.me) :banana:
+
 [Spring Boot](https://github.com/loda-kun/spring-boot-learning) &nbsp;| &nbsp; [Java](https://github.com/loda-kun/java-all) &nbsp;| &nbsp; [Github](https://github.com/loda-kun/spring-boot-learning)
 
 
@@ -95,10 +97,15 @@ Lướt dạo rồi té :'(
 - [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
 - [spring-boot-application-context-events](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-application-context-events): Các sự kiện của ApplicationContext
 
+- [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
+- [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
+
 - [spring-boot-jpa-auditing](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-jpa-auditing): Hướng dẫn Auditing với Hibernate + JPA
 - [jpa-hibernate-one-to-one](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-one): Hướng dẫn sử dụng @OneToOne
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
+- [jpa-hibernate-pageable](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-pageable): Hướng dẫn Query phân trang bằng Pageable (Phần 1)
+
 - [spring-security-example](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-example): Hướng dẫn Authorization với Spring Security (căn bản)
 - [spring-security-hibernate](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate): Hướng dẫn Spring Boot + Security + H2 Database
 - [spring-security-hibernate-jwt](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate-jwt): Hướng dẫn String Security + JWT (Json Web Token)
