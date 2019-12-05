@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.0.5.RELEASE</version>
+    <relativePath /> <!-- lookup parent from repository -->
+  </parent>
+
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
+  <groupId>me.loda.spring</groupId>
+  <artifactId>spring-boot-learning</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>spring-boot-learning</name>
+  <description>Everything about Spring Boot</description>
+  <url>https://loda.me/</url>
+
+  <organization>
+    <name>loda.me</name>
+    <url>https://loda.me/</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>loda</id>
+      <name>Nguyễn Hoàng Nam</name>
+      <email>loda.namnh@gmail.com</email>
+      <url>https://github.com/loda-kun</url>
+      <organization>loda</organization>
+      <organizationUrl>https://loda.me/</organizationUrl>
+      <roles>
+        <role>founder</role>
+      </roles>
+      <properties>
+        <facebook>https://www.facebook.com/nam.tehee</facebook>
+        <linkedin>https://www.linkedin.com/in/loda-nam-hoang/</linkedin>
+      </properties>
+    </developer>
+  </developers>
+
   <modules>
     <module>spring-configuration-properties</module>
     <module>jpa-hibernate-one-to-one</module>
@@ -46,21 +91,12 @@
     <module>spring-boot-application-context-events</module>
     <module>spring-boot-jpa-auditing</module>
     <module>jpa-hibernate-pageable</module>
+    <module>jpa-hibernate-specifications</module>
   </modules>
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.5.RELEASE</version>
-    <relativePath /> <!-- lookup parent from repository -->
-  </parent>
-  <groupId>me.loda.spring</groupId>
-  <artifactId>spring-boot-learning</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>spring-boot-learning</name>
-  <description>Everything about Spring Boot</description>
 
   <properties>
     <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
