@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>jpa-hibernate-specifications</artifactId>
+  <artifactId>jpa-hibernate-criteria</artifactId>
 
   <dependencies>
     <!--spring jpa-->
@@ -32,4 +32,5 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+
 </project>

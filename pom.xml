@@ -92,6 +92,7 @@
     <module>spring-boot-jpa-auditing</module>
     <module>jpa-hibernate-pageable</module>
     <module>jpa-hibernate-specifications</module>
+    <module>jpa-hibernate-criteria</module>
   </modules>
 
   <properties>
