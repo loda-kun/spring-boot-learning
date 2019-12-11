@@ -105,6 +105,8 @@ Lướt dạo rồi té :'(
 - [jpa-hibernate-one-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-one-to-many): Hướng dẫn sử dụng @OneToMany và @ManyToOne
 - [jpa-hibernate-many-to-many](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-many-to-many): Hướng dẫn sử dụng @ManyToMany
 - [jpa-hibernate-pageable](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-pageable): Hướng dẫn Query phân trang bằng Pageable (Phần 1)
+- [jpa-hibernate-criteria](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-criteria): Hướng dẫn sử dụng Criteria API trong Hibernate (Phần 2)
+- [jpa-hibernate-specifications](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-specifications): [Spring JPA] Hướng dẫn sử dụng Specification (Phần 1)
 
 - [spring-security-example](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-example): Hướng dẫn Authorization với Spring Security (căn bản)
 - [spring-security-hibernate](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate): Hướng dẫn Spring Boot + Security + H2 Database
