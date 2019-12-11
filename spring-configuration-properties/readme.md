@@ -2,6 +2,7 @@
 Vào link để xem chi tiết có hình ảnh minh họa: 
 
 [Loda.me - Hướng dẫn sử dụng Spring Properties với @ConfigurationProperties](https://loda.me/huong-dan-su-dung-spring-properties-voi-configuration-properties-loda1556418741178)
+
 # Content without images
 ### Giới thiệu
 
