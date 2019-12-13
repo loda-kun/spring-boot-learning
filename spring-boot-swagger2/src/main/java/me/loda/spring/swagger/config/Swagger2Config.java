@@ -11,7 +11,13 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
+/**
+ * Copyright 2019 {@author Loda} (https://loda.me).
+ * This project is licensed under the MIT license.
+ *
+ * @since 2019-06-06
+ * Github: https://github.com/loda-kun
+ */
 @Configuration
 @EnableSwagger2
 public class Swagger2Config {
@@ -20,8 +26,10 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2).select()
                                                       .apis(RequestHandlerSelectors.basePackage("me.loda.spring.swagger.controller"))
                                                       .paths(PathSelectors.regex("/.*"))
-                                                      .build().apiInfo(apiEndPointsInfo());
+                                                      .build()
+                                                      .apiInfo(apiEndPointsInfo());
     }
+
     private ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder().title("Spring Boot REST API")
                                    .description("Employee Management REST API")

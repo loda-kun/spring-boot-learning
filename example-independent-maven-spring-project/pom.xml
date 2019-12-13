@@ -41,13 +41,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<!--			<exclusions>-->
-			<!--				<exclusion>-->
-			<!--					<groupId>org.junit.vintage</groupId>-->
-			<!--					<artifactId>junit-vintage-engine</artifactId>-->
-			<!--				</exclusion>-->
-			<!--			</exclusions>-->
 		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
 		<!--spring jpa-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -58,14 +65,6 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-jpamodelgen</artifactId>
-			<version>5.4.9.Final</version>
-			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
