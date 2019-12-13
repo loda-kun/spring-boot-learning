@@ -27,9 +27,9 @@ Trước khi nói **Spring Boot**, chúng ta nói về nền tảng của nó, c
 
 **Java** ra đời năm 1991, tới nay thì đã gần 30 năm rồi. Và có một điều mà có lẽ ít lập trình viên biết, đó là tính tới năm 2018, nó vẫn là **ngôn ngữ phổ biến nhất thế giới**.
 
-Cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng, dễ hiểu và dễ đọc. Ngoài ra, khái niệm OOP trong Java là chuẩn mực, kế thừa và interface đã khiến các dòng code trở nên "yêu" hơn và dễ dàng mở rộng hơn.
+Cá nhân mình, thì mình thích cái cú pháp của **Java**, nó rõ ràng, dễ hiểu và dễ đọc. Ngoài ra, khái niệm OOP trong Java là chuẩn mực, kế thừa và interface đã khiến các dòng code trở nên đáng yêu hơn rất nhiều.
 
-Khi được chạm tay vào những đoạn code siêu sao, cảm giác cực kì, cực kì phê. Mặc dù quy tắc của **Java** rất đơn giản và không nhiều biến thể được hỗ trợ bởi thông dịch như `Javascript` hay `Python`, nhưng bạn vẫn không thể nào hết ngạc nhiên với **Java** được, bạn sẽ còn trầm trồ dù học nó bao lâu đi nữa.
+Khi được chạm tay vào những đoạn code siêu sao, cảm giác cực kì, cực kì khó tả ==' phê k tả được. Mặc dù quy tắc của **Java** rất đơn giản và không nhiều biến thể được hỗ trợ bởi thông dịch như `Javascript` hay `Python`, nhưng bạn vẫn không thể nào hết ngạc nhiên với **Java** được, bạn sẽ còn trầm trồ dù học nó bao lâu đi nữa.
 
 **Java** được sử dụng trong nhiều lĩnh vực khác nhau, có thể là Frontend, có thể là Backend, có thể viết Game, Desktop App, Mobile App, xử lý dữ liệu lớn, Microservices, ML, AI, v.v.. nó len lỏi từng ngóc nghách của lập trình. Vì vậy, có kiến thức nền tảng là Java thì bạn rất rất có lợi, làm được rất nhiều thứ, mà dù cho có không sử dụng đến, nó vẫn sẽ giúp bạn học được các ngôn ngữ khác nhanh hơn.
 
@@ -43,7 +43,7 @@ Nhưng nếu không học **Spring** hay **Spring Boot** thì bạn đã bỏ l�
 
 **Spring** là một framework java mãnh mẽ và phổ biến nhất hiện nay dành cho doanh nghiệp. Hoạt động trên nguyên lý Dependency Injection (DI) và IoC, nó giúp rút ngắn thời gian lập trình và test, giảm sự rườm rà trong code, giảm thiểu bottleneck.
 
-Hệ sinh thái **Spring** hỗ trợ mọi layer từ frontend, backend, persistence, third-paty, hỗ trợ mọi kiến trúc từ củ chuối tới microservice, code thì lại dễ dàng, nâng cao hiệu năng của lập trình viên. Nó là ánh sáng le lói chọc xuyên đêm đen, giúp cuộc đời của một Java Developer có chút hi vọng lay lắt, và tiếp túc sống (nghe cứ sai sai vấn đề 😂)
+Hệ sinh thái **Spring** hỗ trợ mọi layer từ frontend, backend, persistence, third-paty, hỗ trợ mọi kiến trúc từ củ chuối tới microservice, code thì lại dễ dàng, nâng cao hiệu năng của lập trình viên. Nó là ánh sáng le lói chọc xuyên đêm đen, giúp cuộc đời của một Java Developer có chút hi vọng lay lắt, và tiếp túc tồn tại (nghe cứ sai sai vấn đề 😂)
 
 Còn rất nhiều thứ có thể kể về **Spring** nhưng vì bạn chưa biết thực ra nó là gì, nên có kể nữa cũng không tác dụng. Bây giờ bạn chỉ cần biết **Spring** và thằng con của nó (vâng, đặc biệt là thằng con của nó), **Spring Boot** là thứ bạn **PHẢI HỌC** khi tới với **Java**.
 
@@ -67,7 +67,7 @@ Nên đọc bài viết dưới đây để biết bắt đầu từ đâu:
 
 Lướt dạo rồi té :'( 
 
-## Các bài viết hiện có
+## Trong repo này gồm có
 []()
 - [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
 - [spring-boot-1-helloworld-@Component-@Autowired](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-1-helloworld-%40Component-%40Autowired): 「SP-#1」Hướng dẫn @Component và @Autowired
@@ -96,6 +96,7 @@ Lướt dạo rồi té :'(
 - [spring-redis](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-redis): Hướng dẫn Spring Boot Data + Redis cơ bản
 - [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
 - [spring-boot-application-context-events](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-application-context-events): Các sự kiện của ApplicationContext
+- [spring-boot-swagger2](https://loda.me/res-tful-api-document-tao-voi-spring-boot-swagger-loda1576222065972): RESTful API Document Tạo với Spring Boot + Swagger
 
 - [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
 - [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
@@ -115,13 +116,17 @@ Lướt dạo rồi té :'(
 
 ---
 
+## Ngoài repo còn có 
+
+Có rất nhiều bài viết khác liên quan tới lập trình không nằm trong repo này, bao gồm hàng tỉ thứ xung quanh hệ sinh thái Java, Spring tại [Loda.me](http://loda.me/) 
+
 ## Lí do
 
-Trong nhiều năm qua, chúng ta nhìn thấy sự lớn mạnh chóng mặt của "nước láng giềng" trong lĩnh vực lập trình.
+Trong nhiều năm qua, tôi nhìn thấy sự xâm lăng đáng sợ của "nước láng giềng" trong lĩnh vực lập trình.
 
 Tôi gần như có thể tìm kiếm hàng tá **repository xịn xò** của họ khi `Explore` trên `Github`. Thì đúng, là Github mà, không tìm thấy repo thì tìm thấy gì :))) nhưng cái điểm khác biệt đó là toàn bộ repo đều là **tiếng Trung**!
 
-Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nước láng giếng" lại có nguồn Developer đông và giỏi chuyên môn như vậy (tạm bỏ qua yếu tố đông dân, xã hội, điều kiện sống, nền tảng giáo dục, v.v.. đúng là có ảnh hưởng nhưng các bạn đọc tiếp đã). 
+Tôi nghĩ đây cũng là một trong những yếu tố chính khiến "nước láng giếng" lại có nguồn Developer đông và giỏi chuyên môn như vậy (tạm bỏ qua yếu tố đông dân, xã hội, điều kiện sống, nền tảng giáo dục, v.v.. đúng là có ảnh hưởng lớn cực lớn đấy, nhưng các bạn đọc tiếp đã). 
 
 Họ chia sẻ tài liệu với nhau rộng rãi, hướng dẫn lập trình, open-source hàng tá những project lớn nhỏ, và tất cả đều viết bằng tiếng Trung, comment tiếng trung, quy tắc, mô tả, giải thích, v.v.. mọi thứ đều là ngôn ngữ bản địa. Nó giúp cho bất kì ai trong đất nước họ đều có thể tiếp cận và học tập được những kiến thức này, dễ hiểu mà lại cực kì nhanh.
 
