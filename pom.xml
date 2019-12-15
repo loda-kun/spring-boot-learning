@@ -93,6 +93,8 @@
     <module>jpa-hibernate-specifications</module>
     <module>jpa-hibernate-criteria</module>
     <module>spring-boot-swagger2</module>
+    <module>spring-boot-swagger3-openapi3</module>
+    <module>jpa-hibernate-custom-validation</module>
   </modules>
 
   <properties>
