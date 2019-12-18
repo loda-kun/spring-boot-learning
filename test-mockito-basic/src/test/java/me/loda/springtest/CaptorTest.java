@@ -21,7 +21,18 @@ public class CaptorTest {
     ArgumentCaptor<Object> captor;
 
     @Test
-    public void testCaptor(){
+    public void testCaptor1() {
+        list.add(1);
+        // Capture 2 lần gọi add có giá trị như thế nào
+        Mockito.verify(list).add(captor.capture());
+
+        System.out.println(captor.getAllValues());
+
+        Assert.assertEquals(1, captor.getValue());
+    }
+
+    @Test
+    public void testCaptor2() {
         list.add(1);
         list.add("String");
         // Capture 2 lần gọi add có giá trị như thế nào
@@ -30,7 +41,7 @@ public class CaptorTest {
         System.out.println(captor.getAllValues());
 
         Assert.assertEquals(Arrays.asList(1, "String"), captor.getAllValues());
-        Assert.assertEquals("String", captor.getValue() );
+        Assert.assertEquals("String", captor.getValue());
     }
 
 }

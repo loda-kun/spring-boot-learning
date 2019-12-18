@@ -20,7 +20,7 @@ public class SpyTest {
         list.add("one");
         list.add("two");
         // show the list items
-//        System.out.println(list);
+        System.out.println(list);
 
         Mockito.verify(list).add("one");
         Mockito.verify(list).add("two");

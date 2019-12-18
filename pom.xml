@@ -96,6 +96,7 @@
     <module>spring-boot-swagger3-openapi3</module>
     <module>jpa-hibernate-custom-validation</module>
     <module>test-mockito-basic</module>
+    <module>spring-boot-19-testing-in-spring-boot-2</module>
   </modules>
 
   <properties>

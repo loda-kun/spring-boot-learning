@@ -1,5 +1,7 @@
 package me.loda.springtest;
 
+import static org.mockito.Mockito.when;
+
 import java.util.List;
 
 import org.junit.After;
@@ -45,6 +47,13 @@ public class MockitoAnnotationTest {
 
     @Mock
     List<String> mockedList;
+
+    @Test
+    public void testUserMockFunction() {
+        List mockList = Mockito.mock(List.class);
+        when(mockList.size()).thenReturn(2);
+        Assert.assertEquals(2, mockList.size());
+    }
 
     @Test
     public void whenUseMockAnnotation_thenMockIsInjected() {

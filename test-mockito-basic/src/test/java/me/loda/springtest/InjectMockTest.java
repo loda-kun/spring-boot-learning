@@ -2,6 +2,8 @@ package me.loda.springtest;
 
 import java.sql.SQLException;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import org.junit.Assert;
@@ -21,21 +23,25 @@ public class InjectMockTest {
     DatabaseDriver driver;
 
     /**
-     * Inject driver vào userService.
+     * Inject driver vào superService.
      * Mọi người còn nhớ Spring Inject thế nào chứ?
      */
     @InjectMocks
-    IntegerService userService;
+    SuperService superService;
 
     @Test(expected = SQLException.class)
     public void testInjectMock() throws SQLException {
-        Mockito.doReturn(Arrays.asList(1, 2, 3)).when(driver).get();
+        // Giả lập cho driver luôn trả về list (3,2,1) khi được gọi tới
+        Mockito.doReturn(Arrays.asList(3, 2, 1)).when(driver).get();
 
-        Assert.assertEquals(driver, userService.getDriver());
-        Assert.assertEquals(Arrays.asList(1, 2, 3), userService.getIntegers());
+        Assert.assertEquals(driver, superService.getDriver());
 
+        // Test xem superService trả ra ngoài giá trị đúng không
+        Assert.assertEquals(Arrays.asList(1, 2, 3), superService.getObjects());
+
+        // Giả lập cho driver bắn exception
         Mockito.when(driver.get()).thenThrow(SQLException.class);
-        userService.getIntegers();
+        superService.getObjects();
     }
 
     public interface DatabaseDriver {
@@ -44,12 +50,16 @@ public class InjectMockTest {
 
     @Data
     @AllArgsConstructor
-    public static class IntegerService {
+    public static class SuperService {
         DatabaseDriver driver;
 
-        public List<Object> getIntegers() throws SQLException{
-            System.out.println("LOG: Getting users");
+        public List<Object> getObjects() throws SQLException {
+            System.out.println("LOG: Getting objects");
             List<Object> list = driver.get();
+
+            System.out.println("LOG: Sorting");
+            Collections.sort(list, Comparator.comparingInt(value -> Integer.valueOf(value.toString())));
+
             System.out.println("LOG: Done");
             return list;
         }
