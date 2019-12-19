@@ -99,7 +99,7 @@ Lướt dạo rồi té :'(
 26. [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
 27. [spring-boot-application-context-events](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-application-context-events): Các sự kiện của ApplicationContext
 28. [spring-boot-swagger2](https://loda.me/res-tful-api-document-tao-voi-spring-boot-swagger-loda1576222065972): RESTful API Document Tạo với Spring Boot + Swagger
-
+29. []
 ### II. Spring Cloud (Đang xây dựng >.<) 
 1. [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
 

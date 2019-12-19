@@ -8,9 +8,6 @@ public class LodaIdValidator implements ConstraintValidator<LodaId, String> {
 
     /**
      * Kiểm tra tính hợp lệ của trường được đánh dấu bởi @LodaId
-     * @param s
-     * @param constraintValidatorContext
-     * @return
      */
     @Override
     public boolean isValid(String s, ConstraintValidatorContext constraintValidatorContext) {
