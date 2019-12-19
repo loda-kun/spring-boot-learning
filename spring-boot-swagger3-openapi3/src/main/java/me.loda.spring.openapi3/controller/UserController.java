@@ -1,6 +1,20 @@
 package me.loda.spring.openapi3.controller;
 
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -10,10 +24,6 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import me.loda.spring.openapi3.model.User;
 import me.loda.spring.openapi3.repository.UserRepository;
-import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
-import java.util.List;
 
 /**
  * Copyright 2019 {@author Loda} (https://loda.me).
@@ -48,7 +58,10 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public User createUser(@Valid @RequestBody User user) {
+    public User createUser(
+            @Valid
+            @Parameter(description = "User model to create.", required = true, schema = @Schema(implementation = User.class))
+            @RequestBody User user) {
         return userRepository.save(user);
     }
 

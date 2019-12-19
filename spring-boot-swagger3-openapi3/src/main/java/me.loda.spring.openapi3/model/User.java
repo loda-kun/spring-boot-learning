@@ -29,12 +29,8 @@ public class User {
     @JsonProperty("id")
     private Long id;
 
-    @NotBlank
-    @Size(min = 0, max = 20)
-    private String firstName;
+    private @NotBlank @Size(min = 0, max = 20) String firstName;
     private String lastName;
 
-    @NotBlank
-    @Size(min = 0, max = 50)
-    private String email;
+    private @NotBlank @Size(min = 0, max = 50) String email;
 }
