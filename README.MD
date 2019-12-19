@@ -90,16 +90,18 @@ Lướt dạo rồi té :'(
 17. [spring-boot-16-@ConfigurationProperties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-16-%40ConfigurationProperties): 「SP-#16」 Hướng dẫn sử dụng @ConfigurationProperties
 18. [spring-boot-17-spring-profiles](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-17-spring-profiles): 「SP-#17」 Chạy nhiều môi trường với Spring Profile
 19. [spring-boot-18-testing-in-spring-boot](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-18-testing-in-spring-boot): 「SP-#18」 Hướng dẫn chi tiết Test Spring Boot
-20. [spring-boot-@Conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional): Hướng dẫn tạo Bean có điều kiện với @Conditional
-21. [spring-boot-@Conditional-2-custom-conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional-2-custom-conditional): Hướng dẫn tự tạo custom @Conditional
-22. [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): Annotation @Lazy trong Spring Boot
-23. [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
-24. [spring-configuration-properties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-configuration-properties): Hướng dẫn sử dụng Spring Properties
-25. [spring-redis](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-redis): Hướng dẫn Spring Boot Data + Redis cơ bản
-26. [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
-27. [spring-boot-application-context-events](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-application-context-events): Các sự kiện của ApplicationContext
-28. [spring-boot-swagger2](https://loda.me/res-tful-api-document-tao-voi-spring-boot-swagger-loda1576222065972): RESTful API Document Tạo với Spring Boot + Swagger
-29. []
+20. [spring-boot-19-testing-in-spring-boot-2](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-19-testing-in-spring-boot-2): 「SP-#19」 Hướng dẫn chi tiết Test Spring Boot (Phần 2)
+21. [spring-boot-@Conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional): Hướng dẫn tạo Bean có điều kiện với @Conditional
+22. [spring-boot-@Conditional-2-custom-conditional](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Conditional-2-custom-conditional): Hướng dẫn tự tạo custom @Conditional
+23. [spring-boot-@Lazy-Anotation](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40Lazy-Anotation): Annotation @Lazy trong Spring Boot
+24. [spring-boot-webflux](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-webflux): Xây dựng ứng dụng Reactive với Spring 5 Webflux
+25. [spring-configuration-properties](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-configuration-properties): Hướng dẫn sử dụng Spring Properties
+26. [spring-redis](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-redis): Hướng dẫn Spring Boot Data + Redis cơ bản
+27. [spring-boot-@EventListener-@Async](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-%40EventListener-%40Async): Xử lý sự kiện với @EventListener + @Async
+28. [spring-boot-application-context-events](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-application-context-events): Các sự kiện của ApplicationContext
+29. [spring-boot-swagger2](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-swagger2): RESTful API Document Tạo với Spring Boot + Swagger
+30. [spring-boot-swagger3-openapi3](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-swagger3-openapi3): RESTful API Document với Spring Boot + OpenApi 3.0
+
 ### II. Spring Cloud (Đang xây dựng >.<) 
 1. [spring-cloud-config-server](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-server) + [spring-cloud-config-client](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-cloud-config-client): Hướng dẫn cấu hình nhiều properties bằng Spring Cloud Config Server
 
@@ -112,6 +114,7 @@ Lướt dạo rồi té :'(
 5. [jpa-hibernate-pageable](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-pageable): Hướng dẫn Query phân trang bằng Pageable (Phần 1)
 6. [jpa-hibernate-criteria](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-criteria): Hướng dẫn sử dụng Criteria API trong Hibernate (Phần 2)
 7. [jpa-hibernate-specifications](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-specifications): [Spring JPA] Hướng dẫn sử dụng Specification (Phần 1)
+8. [jpa-hibernate-custom-validation](https://github.com/loda-kun/spring-boot-learning/tree/master/jpa-hibernate-custom-validation): Hướng dẫn tự tạo Validator để kiểm tra Model & Entity
 
 ### IV. Security
 
@@ -119,6 +122,9 @@ Lướt dạo rồi té :'(
 2. [spring-security-hibernate](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate): Hướng dẫn Spring Boot + Security + H2 Database
 3. [spring-security-hibernate-jwt](https://github.com/loda-kun/spring-boot-learning/tree/master/spring-security-hibernate-jwt): Hướng dẫn String Security + JWT (Json Web Token)
 
+### Others
+
+1. [test-mockito-basic](https://github.com/loda-kun/spring-boot-learning/tree/master/test-mockito-basic): [Test] Hướng dẫn toàn tập Mockito
 ---
 
 ## Ngoài repo còn có 
