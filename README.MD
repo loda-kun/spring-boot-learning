@@ -69,6 +69,16 @@ Nên đọc bài viết dưới đây để biết bắt đầu từ đâu:
 
 Lướt dạo rồi té :'( 
 
+---
+## Cài đặt 
+
+1. Clone hoặc Download dự án này về máy
+2. Cài đặt [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+3. Cài đặt [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok/)
+4. Open folder
+5. Cấu hình Preferences | Build, Execution, Deployment | Compiler | Annotation Processors
+![](docs/images/how_to_config_annotation.jpg)
+
 ## Trong repo này gồm có
 ### I. Spring Boot Basic 
 1. [basic-dependency-loosely-coupled](https://github.com/loda-kun/spring-boot-learning/tree/master/basic-dependency-loosely-coupled): Hướng dẫn loosely coupled
