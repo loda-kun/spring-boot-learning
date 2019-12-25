@@ -72,6 +72,8 @@ Lướt dạo rồi té :'(
 ---
 ## Cài đặt 
 
+:christmas_tree: Xem chi tiết hướng dẫn bằng video: [https://www.youtube.com/watch?v=fEzH_08iti4](https://www.youtube.com/watch?v=fEzH_08iti4) 
+
 1. Clone hoặc Download dự án này về máy
 2. Cài đặt [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 3. Cài đặt [Lombok Plugin](https://plugins.jetbrains.com/plugin/6317-lombok/)
