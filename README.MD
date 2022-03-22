@@ -80,6 +80,7 @@ Lướt dạo rồi té :'(
 4. Open folder
 5. Cấu hình Preferences | Build, Execution, Deployment | Compiler | Annotation Processors
 ![](docs/images/how_to_config_annotation.jpg)
+org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor
 
 ## Trong repo này gồm có
 ### I. Spring Boot Basic 
