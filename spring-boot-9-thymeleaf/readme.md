@@ -49,7 +49,7 @@ Kết quả khi render ra:
 
 ```
 
-thuộc tính `th:text` biến mất và giá trị biến `name` được đưa vào trong thẻ `H1`.
+Thuộc tính `th:text` biến mất và giá trị biến `name` được đưa vào trong thẻ `H1`.
 
 Đó là cách **Thymeleaf** hoạt động.
 
@@ -61,7 +61,7 @@ Trong bài trước, tôi đã demo cách sử dụng đối tượng `Model`. B
 
 `Model` lưu giữ thông tin dưới dạng key-value.
 
-Trong template thymeleaf, để lấy các thông tin trong `Model`. bạn sẽ sử dụng `Thymeleaf Standard Expression`.
+Trong template thymeleaf, để lấy các thông tin trong `Model`. Bạn sẽ sử dụng `Thymeleaf Standard Expression`.
 
 1. `${...}`: Giá trị của một biến.
 2. `*{...}`: Giá trị của một biến được chỉ định (sẽ giải thích ở dưới)
@@ -239,17 +239,17 @@ spring.messages.basename=i18n/messages
 # Nó có tác dụng cố định ngôn ngữ hiện tại chỉ là Tiếng Việt
 spring.mvc.locale-resolver=fixed
 
-# Mặc định ngôn ngữ là tiếng việt
+# Mặc định ngôn ngữ là tiếng Việt
 spring.mvc.locale=vi_VN
-# Đổi thành tiếng anh bằng cách bỏ comment ở dứoi
+# Đổi thành tiếng Anh bằng cách bỏ comment ở dưới
 # spring.mvc.locale=en_US
 ```
 
 #### Chức năng messages
 
-Các trang website hỗ trợ đã ngôn ngữ (i18n) thì các message sẽ được lưu dưới dạng key-value. Và tùy theo từng vùng địa lý mà chọn sử dụng value cho hợp lý.
+Các trang websites hỗ trợ đa ngôn ngữ (i18n) thì các messages sẽ được lưu dưới dạng key-value. Và tùy theo từng vùng địa lý mà chọn sử dụng value cho hợp lý.
 
-**Thymeleaf** sẽ tự làm điều này cho chúng ta, vì ở trên chúng ta đã cấu hình cho nó vị trí lưu trũ các messages này rồi.
+**Thymeleaf** sẽ tự làm điều này cho chúng ta, vì ở trên chúng ta đã cấu hình cho nó vị trí lưu trữ các messages này rồi.
 
 ![spring-thymeleaf](../../images/loda1558267496214/4.jpg)
 
@@ -352,7 +352,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * TẠo ra class này chỉ để lưu giữ thông tin
+ * Tạo ra class này chỉ để lưu giữ thông tin
  */
 @Data
 @AllArgsConstructor
@@ -389,7 +389,7 @@ public class WebController {
         // Đưa thông tin vào Model
         model.addAttribute("lodaProfile", profile);
         
-        // TRả về template profile.html
+        // Trả về template profile.html
         return "profile";
     }
 }
@@ -434,7 +434,7 @@ _resources/templates/profile.html_
 Ở đây, chúng ta sử dụng:
 
 1. `${...}` để lấy giá trị của biến `lodaProfile` trong `Model`
-2. `*{...}` để lấy giá trị của biến `info` đã chỉ định,
+2. `*{...}` để lấy giá trị của biến `info` đã chỉ định
 
 #### Chạy thử lần 2.
 
@@ -442,7 +442,7 @@ Chúng ta chạy lại chương trình lần nữa và truy cập vào địa ch
 
 ![spring-thymeleaf](../../images/loda1558267496214/7.jpg)
 
-Click vào Button **Loda Profile**. Trình duyệt sẽ đi tới đại chỉ `http://localhost:8085/profile`
+Click vào Button **Loda Profile**. Trình duyệt sẽ đi tới địa chỉ `http://localhost:8085/profile`
 
 ![spring-thymeleaf](../../images/loda1558267496214/8.jpg)
 
