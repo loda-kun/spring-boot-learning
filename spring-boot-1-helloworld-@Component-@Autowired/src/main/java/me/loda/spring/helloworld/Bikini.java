@@ -30,4 +30,7 @@ public class Bikini implements Outfit {
     public void wear() {
         System.out.println("Mặc bikini");
     }
+    public void undress(){
+        System.out.println("unDress");
+    }
 }
